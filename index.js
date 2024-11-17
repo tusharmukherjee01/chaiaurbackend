@@ -15,10 +15,17 @@ app.get('/tushar',(req,res) => {
 app.get('/login',(req,res) => {
     res.send('<h1>Login Karo Bro..</h1>')
 })
-
+app.get('/login',(req,res) => {
+    res.send('<h1>Login Karo Bro..</h1>')
+})
 app.get('/chai' , (req,res) => {
     res.send("<h1>Mere saath chai pine chaloge kiya cuteyy ?💕🌻..</h1>")
 })
+
+app.get('/abc' , (req,res) => {
+    res.send("<h1>Mere saath chai pine chaloge kiya cuteyy ?💕🌻..</h1>")
+})
+
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${process.env.PORT}`)
 })
